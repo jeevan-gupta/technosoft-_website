@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Men's Clothings</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" >
+    
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" ></script>
+    
+    <!-- Bootstrap 4 -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" ></script>
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/ff506636b9.js" crossorigin="anonymous"></script>
+
+    <!--  Styling  -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- JavaScript  -->
+    <script src="./js/script.js"></script>
+
+    <!--  AJAX  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+  
+  
+     <!-- NAVIGATION -->
+     <nav class="navbar navbar-expand-md navbar-sucess  bg-dark fixed-top">
+      <div class="container-fluid">
+          <a class="nav-item nav-link" href="#" data-toggle="modal" data-target="#aboutModel"><i class="navbar-brand fas fa-user" ></i><span class="navbar-text">JEEVAN</span></a>
+
+          <a href="#" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-menu"><i class="navbar-toggler-icon"></i></a>
+          <div class="navbar-collapse collapse" id="navbar-menu">
+              <div class="navbar-nav ml-auto">
+                  <a class="nav-item nav-link" href="shop.html">HOME</a>
+
+                  <div class="dropdown">
+                      <a class="nav-item nav-link dropdown-toggle" data-toggle="dropdown"  href="#projects">FASHION</a>
+                      <div class="dropdown-menu">
+                          <a href="men.html"><h5 class="dropdown-header">MEN'S</h5></a>
+                          <a href="#projectAnchor" class="dropdown-item small">Jeans</a>
+                          <a href="#projectAnchor" class="dropdown-item small">T-shirts</a>
+                          <a href="#projectAnchor" class="dropdown-item small">Shoes</a>
+
+                          <div class="dropdown-divider"></div>
+
+                          <a href="women.html"><h5 class="dropdown-header">WOMEN'S</h5></a>
+                          <a href="#projectAnchor" class="dropdown-item small">jeans</a>
+                          <a href="#projectAnchor " class="dropdown-item small">Ethnic wear</a>
+                          <a href="#projectAnchor " class="dropdown-item small">Shoes</a>
+                      </div>
+                   </div>   
+
+                  <div class="dropdown">
+                      <a class="nav-item nav-link dropdown-toggle" data-toggle="dropdown"  href="#shop">ELECTRONICS</a>
+                          <div class="dropdown-menu">
+                          <a href="phone.html"><h5 class="dropdown-header">Phones</h5></a>
+                          <a href="#" class="dropdown-item small">REDMI </a>
+                          <a href="#" class="dropdown-item small">OPPO </a>
+                          <a href="#" class="dropdown-item small">SAMSUNG </a>
+                          <a href="#" class="dropdown-item small">VIVO </a>
+
+                          <div class="dropdown-divider"></div>
+
+                          <a href="laptop.html"><h5 class="dropdown-header">Laptops</h5></a>
+                          <a href="#" class="dropdown-item small">DELL</a>
+                          <a href="#" class="dropdown-item small">HP</a>
+                          <a href="#" class="dropdown-item small">LENOVO</a>
+                          <a href="#" class="dropdown-item small">ACER</a>
+
+                          <div class="dropdown-divider"></div>
+
+                          <a href="headphone.html"><h5 class="dropdown-header">Headphone</h5></a>
+                          <a href="#" class="dropdown-item small">BEAT</a>
+                          <a href="#" class="dropdown-item small">SONY</a>
+                          <a href="#" class="dropdown-item small">BOAT</a>
+                          <a href="#" class="dropdown-item small">SAMSUNG</a>
+                      </div>
+                  </div>  
+              
+                  <a class="nav-item nav-link" href="#contactAnchor" ><i class="fas fa-envelope-open ">Contact</i></a>
+                  <a href=" #" class="  nav-item nav-link"  >
+                    <i class="  fas fa-shopping-cart" aria-hidden="true"> </i>
+                    <span class=" shop-cart" > 2 </span>
+                  </a>
+              </div>
+          </div>  
+      </div>
+  </nav>
+
+
+      <!--  About Modal   -->
+
+  <div class="modal fade" id="aboutModel" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title ">About me</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <div class="modal-body" >
+              <div class="center">
+                  <img src="./images/jeevan.JPG" width="150" alt="" ><br> <br><button type="button" class="btn btn-lg btn-light" disabled>JEEVAN</button></span><br>
+                  <p class="text-md text-danger">Hey! How'r you doing? You can visit the link below to know more about me.</p>
+                     
+                  <p class="text-left">
+                      <a href="https://www.gmail.com"><i class="fas fa-envelope " ></i>jiwan.gupta20@gmail.com</a>
+                      <br>
+                     <a href="https://facebook.com/jiwan.prasad20"> <i class="fa fa-facebook-square" aria-hidden="true"> </i> Facebook</a>
+                      <br>
+                      <a href="https://twitter.com/@jeevangupta12"><i class="fa fa-twitter" aria-hidden="true"></i>Twitter</a>
+                      <a href="https://instagram.com/jeevan.20_official"><br><i class="fas fa-camera"> </i>Instagram</a>
+                  
+                  </p>
+              </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary">Save changes</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+<br><br>
+  <!--  Content  -->
+
+    <div class="container-fluid p-5">
+        <h1  class="text-lg text-danger">Headphones</h1> <br><br>
+       
+            
+        <!--  Cards  -->
+        <div class="card-deck">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./images/ha.jpg" alt="Card image cap">
+                <div class="card-body">
+                  
+                  <h5 class="card-title">Beat Wireless</h5>
+                  <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit tempora natus in dolorum optio aspernatur non similique illo expedita corrupti reprehenderit error, dignissimos ipsa iure rem architecto dolore itaque fugit?</p>
+                   
+                  
+
+                    <div class="text-center">
+                      <p>   
+                        <h5>Rs 24999</h5>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        
+                      </p>
+                  
+                     <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;"><br>
+                <img class="card-img-top" src="./images/hb.jpg" alt="Card image cap"><br><br><br><br>
+                <div class="card-body">
+                  <h5 class="card-title">Beat Wired</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet rerum nisi molestias saepe atque veritatis? Ducimus eos aspernatur corrupti perspiciatis porro voluptatum. Consequuntur esse magnam odit dolor aspernatur necessitatibus perferendis.</p>
+                 
+                  
+
+                  <div class="text-center">
+                      <p>   
+                        <h5>Rs 8999</h5>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked "></span>
+                        <span class="fa fa-star checked"></span>
+                        
+                      </p>
+                  
+
+                  <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>  
+                </div>
+            </div>
+              
+              <div class="card" style="width: 18rem;"><br>
+                <img class="card-img-top" src="./images/hc.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <br><br>
+                  <h5 class="card-title">Boat Wireless</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore sapiente ut, quam fuga voluptate molestiae mollitia qui, minus voluptates iure temporibus. Alias provident aliquid quibusdam error tenetur! Quod, accusantium suscipit.</p>
+                 
+                  
+
+                  <div class="text-center">
+                      <p>   
+                        <h5>Rs 2999</h5>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        
+                      </p>
+                 
+
+                  <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+              </div> 
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./images/hd.jpg" alt="Card image cap"><br>
+                <div class="card-body">
+                    
+                  <h5 class="card-title">Boat Earphone</h5>
+                  <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius voluptas itaque voluptates hic quaerat eveniet consectetur rerum, eum, nobis repellendus veniam a autem, numquam deserunt magni eaque. Nisi, nulla. Ut!</p>
+                  
+                  
+
+                     <div class="text-center">
+                      <p>   
+                        <h5>Rs 24999</h5>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        
+                      </p>
+                  
+
+                  <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+              </div>    
+        </div>
+
+        <br><br>
+        <div class="card-deck">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./images/he.jpg" alt="Card image cap">
+                
+                <div class="card-body">
+                    
+                  <h5 class="card-title">Sony Wireless</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore sapiente ut, quam fuga voluptate molestiae mollitia qui, minus voluptates iure temporibus. Alias provident aliquid quibusdam error tenetur! Quod, accusantium suscipit.</p>
+                
+                  
+                   
+                  <div class="text-center">
+                      <p>   
+                        <h5>Rs 19999</h5>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        
+                      </p>
+                 
+
+                  <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div> 
+            <div class="card" style="width: 18rem;">
+                
+                <img class="card-img-top" src="./images/hf.jpg" alt="Card image cap">
+                   
+                <div class="card-body">
+                    <h5 class="card-title">Sony Wired</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore sapiente ut, quam fuga voluptate molestiae mollitia qui, minus voluptates iure temporibus. Alias provident aliquid quibusdam error tenetur! Quod, accusantium suscipit.</p>
+                  
+                    
+
+                    <div class="text-center">
+                        <p>   
+                          <h5>Rs 5999</h5>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          
+                        </p>
+
+                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                     </div>
+                </div>
+            </div>   
+            <div class="card" style="width: 18rem;">
+                
+                <img class="card-img-top" src="./images/hg.jpg" alt="Card image cap">
+                <div class="card-body"><br><br>
+                    <h5 class="card-title">Samsung Wireless</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore sapiente ut, quam fuga voluptate molestiae mollitia qui, minus voluptates iure temporibus. Alias provident aliquid quibusdam error tenetur! Quod, accusantium suscipit.</p>
+                   
+                    
+
+                  <div class="text-center">
+                      <p>   
+                        <h5>Rs 6999</h5>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        
+                      </p>
+
+                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div> 
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./images/hh.jpg" alt="Card image cap">
+                <div class="card-body">
+                    
+                    <h5 class="card-title">Samsung Earphone</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore sapiente ut, quam fuga voluptate molestiae mollitia qui, minus voluptates iure temporibus. Alias provident aliquid quibusdam error tenetur! Quod, accusantium suscipit.</p>
+                   
+                    
+                    
+
+                    <div class="text-center">
+                        <p>     
+                          <h5>Rs 1999</h5>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star "></span>
+                          <span class="fa fa-star"></span>
+                          
+                        </p>
+
+                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>   
+
+         </div>  
+         <br><br><br><br>
+        <!--  Footer  -->
+        <footer class="container-fluid bg-dark  p-5">
+          <div class="row">
+              <div class="col-sm-3">
+                  <h6 class="secondary-text">HOME</h6>
+                     
+                  <p>
+                      <a href="#">Home</a>
+                      <br><a href="#">Shop</a>
+                      <br><a href="#">Contact</a>
+                  </p>
+              </div>
+
+              <div class="col-sm-3">
+                  <h6 class="secondary-text">FASHION</h6>
+                     
+                  <p>
+                      <a href="shop.html">T-Shirt</a>
+                      <br><a href="shop.html">Jeans</a>
+                      <br><a href="shop.html">Shoes</a>
+                  </p>
+              </div>
+
+              <div class="col-sm-3">
+                  <h6 class="secondary-text">ELECTRONICS</h6>
+                     
+                  <p>
+                      <a href="shop.html">Phones</a>
+                      <br><a href="shop.html">Laptops</a>
+                      <br><a href="shop.html">Headphones</a>
+                  </p>
+              </div>
+
+              <div class="col-sm-3" id="contactAnchor">
+                  <h6 class="secondary-text">CONTACT</h6>
+                     
+                  <p>
+                      <i class="fas fa-envelope " ></i>jiwan.gupta20@gmail.com
+                  <br>
+                  <i class="fa fa-facebook-square" aria-hidden="true"> </i> Facebook
+                  <br>
+                  <i class="fa fa-twitter" aria-hidden="true"></i>Twitter
+                      <br><i class="fas fa-camera"> </i>Instagram
+                  </p>
+              </div>
+          
+          </div>
+          <p class="text-center">Jeevan &copy; 2020</p>
+      </footer>
+
+        
+</body>
+</html>
